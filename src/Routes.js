@@ -1,6 +1,6 @@
 import { Routes, Route } from "react-router-dom";
 import React from "react";
-import Appartements from "./pages/Appartements";
+import Apartments from "./pages/Apartments";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import NotFound from "./pages/NotFound";
@@ -14,7 +14,7 @@ function App() {
         <Route path="/" element={<Home />} />
 
         {/*Route vers la page de détail de chaque appartement*/}
-        <Route path="/appartements/:id" element={<Appartements />} />
+        <Route path="/apartment/:id" element={<Apartments />} />
 
         {/*Route vers la page "A propos"*/}
         <Route path="/about" element={<About />} />
