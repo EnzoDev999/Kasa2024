@@ -1,6 +1,7 @@
 import React from "react";
-import Footer from "./Footer";
-import Header from "./Header";
+// import Footer from "./Footer";
+import Header from "./Header.js";
+import Footer from "./Footer.js";
 import "../sass/components/Layout.scss";
 
 //  Mise en place du Layout, constitué des composants "Header" et "Footer" et appelé une fois pour toutes dans le composant général index.js
